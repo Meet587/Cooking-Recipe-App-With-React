@@ -6,10 +6,9 @@ export default function Header(props) {
         name
     } = props
   return (
-    <div>
-        <h1>searchbar</h1>
+    <div className='header'>
         <form action="">
-            <div>
+            <div className='header__searchbar'>
                 <input type="text" placeholder='Search here'
                     value={''}
                     onChange={e => searchRecipe(e.target.value)} />

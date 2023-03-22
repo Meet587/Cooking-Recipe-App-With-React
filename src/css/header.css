@@ -1,0 +1,26 @@
+.header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2rem;
+    background-color: rgb(81, 9, 190);
+}
+
+.header__searchbar input {
+    padding: 7px;
+    padding-left: 20px;
+    width: 13rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.25);
+	color: white;
+	font-weight: 500;
+    transition: 0.3s;
+}
+input:focus {
+    width: 18rem;
+}
