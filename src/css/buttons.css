@@ -4,24 +4,25 @@
     outline: none;
     font-weight: bold;
     font-size: 0.8rem;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 9px;
+    padding: 10px 20px;
     cursor: pointer;
 }
   
 .btn--primary {
     color: #ffffff;
     background-image: linear-gradient(180deg,#ffb924,#ff8d02);
-    box-shadow: 0 5px 8px -.2rem rgba(255,141,2,.5);
+    box-shadow: 0 1px 8px -.02rem rgba(255,141,2,.5); 
 }
   
 .btn--primary:hover {
-    background-color: hsl(200, 100%, 35%);
+    background-image: linear-gradient(180deg,#dfa21e,#e07d03);
 }
   
 .btn--danger {
     color: white;
     background-color: hsl(0, 100%, 50%);
+    box-shadow: 0 1px 8px -.02rem rgba(255, 2, 2, 0.5);
 }
   
 .btn--danger:hover {

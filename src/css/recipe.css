@@ -23,6 +23,7 @@
   .recipe__title {
     margin: 0;
     font-size: 1.75rem;
+  font-family: avenir-next,Helvetica Neue,Arial,sans-serif;
   }
   
   .recipe__row {

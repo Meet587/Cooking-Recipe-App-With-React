@@ -63,7 +63,7 @@ export default function App() {
   }
   return (
     <RecipeContext.Provider value={recipeContextValue}>
-      {/* <Header recipes={recipes} /> */}
+      <Header recipes={recipes} />
       <RecipeList recipes={recipes} />
       {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}
     </RecipeContext.Provider>
