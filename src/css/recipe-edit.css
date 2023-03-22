@@ -62,10 +62,20 @@
     text-align: center;
   }
   
-  @media (max-width: 1000px) {
-    .recipe-edit__details-grid,
-    .recipe-edit__ingredient-grid {
-      grid-template-columns: 1fr;
-      row-gap: 8px;
-    }
+@media (max-width: 1000px) {
+  .recipe-edit__details-grid,
+  .recipe-edit__ingredient-grid {
+    grid-template-columns: 1fr;
+    row-gap: 8px;
   }
+}
+
+@media (max-width:650px) {
+  .recipe-edit{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow-y: auto;
+  }
+}
+
