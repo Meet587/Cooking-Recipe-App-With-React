@@ -1,0 +1,47 @@
+.recipe {
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 .2rem .5rem .5px rgba(255,185,36,.6);
+    margin: 40px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .recipe:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+  }
+  
+  .recipe__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .recipe__title {
+    margin: 0;
+    font-size: 1.75rem;
+  }
+  
+  .recipe__row {
+    margin-top: 10px;
+  }
+  
+  .recipe__label {
+    margin-right: 5px;
+  }
+  
+  .recipe__value {
+    font-weight: 300;
+  }
+  
+  .recipe__value--indented {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .recipe__instructions {
+    white-space: pre-wrap;
+  }
